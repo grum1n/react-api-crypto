@@ -14,8 +14,13 @@ function App() {
   }, []);
 
   return (
-    <div className='App'>
-      <h1>Api</h1>
+    <div className='coin-App'>
+      <div className= 'coin-search'>
+        <h1 className='coin-text'>Search a currency</h1>
+        <form>
+          <input type='text' placeholder='Search' className='coin-input' />
+        </form>
+      </div>
     </div>
   );
 }
